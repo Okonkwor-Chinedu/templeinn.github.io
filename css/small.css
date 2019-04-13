@@ -533,3 +533,8 @@ footer {
     margin: 0;
     line-height: 2px;
   }
+  iframe{
+    width: 450px;
+    height: 450px; 
+  }
+  
