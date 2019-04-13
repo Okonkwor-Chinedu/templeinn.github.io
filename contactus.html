@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Temple Inn & Suites</title>
+        <meta name="author" content="Chinedu Frank Okonkwor">
+        <meta name="description" content="Enjoy your best stay with us">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    <body>
+        <a href="../index.html"><header>
+            <img src="images/MORONI2.JPG" alt="Temple Inn Logo">
+            <div>
+                <h1>Temple Inn & Suites</h1>
+                <div class="subheading">Providing you the best stay for your temple trip</div>
+            </div>
+            </header></a>
+            <nav>
+                <button onclick="toggleNavMenu()">&#9776;</button>
+                <ul class="hide mainmenu" id="primaryNav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="temple.html">TEMPLE</a></li>
+                    <li><a href="reservation.html">RESERVATION</a></li>
+                    <li><a href="services.html">SERVICE</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="3" class="title">Our Hours Of Operation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>7:00 AM</td>
+                            <td>5:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>7:00 AM</td>
+                            <td>11:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>7:00 AM</td>
+                            <td>11:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>7:00 AM</td>
+                            <td>11:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>7:00 AM</td>
+                            <td>11:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>7:00 AM</td>
+                            <td>11:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td  class="last">Sunday</td>
+                            <td class="last">Closed</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Contact Us</h3>
+                <h3>Phone Number: 4353135223</h3>
+            <form action="thanks.html" method="get" enctype="multipart/form-data" name="event" id="userReport">
+                <fieldset>
+                    <legend><span>Contact Us</span></legend>
+                    <label><span>Full Name:</span><input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" required ></label>
+                    <label><span>Email:</span><input name="email" type="email" value="" placeholder="example@email.com" ></label>
+                    <label><span>Phone:</span><input name="phone" type="tel" value="" placeholder="1235551234" pattern="[0-9]{10,20}" required ></label>
+                    <fieldset>
+                        <legend><span>Additional Information:</span></legend>
+                        <textarea name="comments" rows="15" cols="35"></textarea>
+                    </fieldset>
+                    <input type="submit" value="Submit" class="submitBtn">
+                    <input type="hidden" value="Event Registration" name="subject" >
+                    <input name="redirect" type="hidden" value="thankyou2.html">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.395167203056!2d-77.09532668446967!3d38.98347668493448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800+Montgomery+Ln+%23300%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1555053453916!5m2!1sen!2sus" width="1300" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+</fieldset>
+</form>
+</main>
+                    <footer>              
+            <p>Temple Inn & Suites<br>4800 Montgomery Ln #300<br>Bethesda, MD 20814<br>Phone Number: 4353135223</p><p>&copy;Temple Inn & Suites<br><br><span id="currentdate"></span></p>
+</footer>
+<script src="scripts/currentdate.js"></script>
+<script src="scripts/hambuger.js"></script>
+</body>
+</html>
