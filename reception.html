@@ -48,26 +48,26 @@
                 </div>
                 </section>
                 <h3>Submit a wedding reservation request</h3>
-            <form action="thanks.html" method="get" enctype="multipart/form-data" name="event" id="userReport">
-                <fieldset>
-                    <legend><span>Contact Information</span></legend>
-                    <label><span>Full Name:</span><input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" required ></label>
-                    <label><span>Email:</span><input name="email" type="email" value="" placeholder="example@email.com" ></label>
-                    <label><span>Phone:</span><input name="phone" type="tel" value="" placeholder="1235551234" pattern="[0-9]{10,20}" required ></label>
-                    <label><span>Home State/Country:</span><input type="text"></label>
-                    <label><span>Zip Code:</span><input name="zip" type="number" required></label>
-                </fieldset>
-                <fieldset>
-                    <legend><span>Wedding Reception Date</span></legend>
-                    <label><span>Event Date:</span><input name="date" type="date" ></label>
-                    <label><span>Temple Location:</span><input type="text" name="stateType" list="states">
-                        <datalist id="states">
-                            <option value="Washington DC"></option>
-                            <option value="Provo"></option>
-                            <option value="idaho Falls"></option>
-                            <option value="Gilbert"></option>
-                        </datalist>
-                    </label>
+                <form action="thanks.html" method="get" enctype="multipart/form-data" name="event" id="userReport">
+                    <fieldset>
+                        <legend><span>Contact Information</span></legend>
+                        <label><span>Full Name:</span><input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" required ></label>
+                        <label><span>Email:</span><input name="email" type="email" value="" placeholder="example@email.com" ></label>
+                        <label><span>Phone:</span><input name="phone" type="tel" value="" placeholder="1235551234" pattern="[0-9]{10,20}" required ></label>
+                        <label><span>Zip Code:</span><input name="zip" type="number" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend><span>Stay Duration</span></legend>
+                        <label><span>Check In:</span><input name="date" type="date" ></label>
+                        <label><span>Check Out:</span><input name="date" type="date" ></label>
+                        <label><span>Temple Location:</span><input type="text" name="stateType" list="states">
+                            <datalist id="states">
+                                    <option value="Washington DC"></option>
+                                    <option value="Provo"></option>
+                                    <option value="idaho Falls"></option>
+                                    <option value="Gilbert"></option>
+                            </datalist>
+                        </label>
                     <label><span>Food Service:</span>
                         <select name="Reservation">
                             <option value="select" disabled selected></option>
